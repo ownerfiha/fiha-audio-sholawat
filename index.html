@@ -1,210 +1,64 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="FIHA AUDIO SHOLAWAT melayani sewa sound system dan silent genset untuk sholawat, majelis, pengajian, dan berbagai acara di Semarang dan sekitarnya.">
-<meta name="theme-color" content="#101710">
-<title>FIHA AUDIO SHOLAWAT | Sound System & Genset</title>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#080d09"><meta name="description" content="FIHA AUDIO SHOLAWAT melayani sewa sound system dan silent genset untuk sholawat, majelis, pengajian, dan berbagai acara di Semarang dan sekitarnya.">
+<title>FIHA AUDIO SHOLAWAT | Sound System & Silent Genset</title>
 <style>
-:root{--bg:#0b100c;--panel:#141d16;--panel2:#1b281e;--green:#91e65b;--green2:#b7f58d;--text:#f4f7f2;--muted:#b5c0b5;--line:#2b3b2d}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.6}
-a{color:inherit;text-decoration:none}.wrap{width:min(1100px,92%);margin:auto}
-header{position:sticky;top:0;z-index:5;background:#0b100cf0;border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
-.nav{min-height:68px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:10px;font-weight:900;letter-spacing:.7px}.brand img{width:58px;height:48px;object-fit:contain}.brand span{color:var(--green)}nav{display:flex;gap:20px;flex-wrap:wrap;font-size:14px;color:var(--muted)}nav a:hover{color:var(--green)}
-.hero{padding:78px 0 64px;background:radial-gradient(ellipse at 80% 20%,#29452b 0%,transparent 45%),linear-gradient(135deg,#101910,#0b100c 70%);border-bottom:1px solid var(--line)}
-.hero-logo{display:block;width:min(340px,78vw);height:auto;margin:0 0 24px;object-fit:contain}.eyebrow{color:var(--green);font-size:13px;font-weight:800;letter-spacing:2px;text-transform:uppercase}
-h1{font-size:clamp(36px,7vw,66px);line-height:1.05;max-width:760px;margin:14px 0}h1 span{color:var(--green)}
-.lead{color:var(--muted);font-size:18px;max-width:650px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
-.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 20px;border-radius:10px;font-weight:800;background:var(--green);color:#10200e;border:1px solid var(--green)}
-.btn.secondary{background:transparent;color:var(--text);border-color:#526653}.btn:hover{filter:brightness(1.08)}
-section{padding:64px 0}.section-head{margin-bottom:26px}.section-head h2{font-size:clamp(26px,4vw,38px);margin:4px 0}.section-head p{color:var(--muted);margin:0}
-.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px}.card h3{margin:0 0 5px;font-size:21px}.price{font-size:26px;font-weight:900;color:var(--green);margin:8px 0 14px}.card ul{padding-left:20px;color:var(--muted);margin:0}.card li{margin:4px 0}.tag{display:inline-block;background:#263b26;color:var(--green2);font-size:12px;font-weight:800;padding:5px 9px;border-radius:99px}
-.note{border:1px solid #526c43;background:#172318;border-radius:12px;padding:16px;color:#dce9d6;margin-top:18px}.note strong{color:var(--green2)}
-.bundle .card{background:linear-gradient(145deg,#1b2b1d,#121a14)}.transport-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.transport-item{display:flex;justify-content:space-between;gap:12px;background:var(--panel);border:1px solid var(--line);padding:14px;border-radius:10px}.transport-item strong{color:var(--green)}
-.about{display:grid;grid-template-columns:1.2fr .8fr;gap:20px}.contact-box{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px}.contact-box p{color:var(--muted)}.contact-links{display:grid;gap:10px;margin-top:16px}.contact-links a{padding:12px;border:1px solid var(--line);border-radius:10px}.contact-links a:hover{border-color:var(--green);color:var(--green)}
-form{display:grid;gap:12px;margin-top:18px}label{font-size:13px;color:var(--muted)}input,select,textarea{width:100%;padding:12px;background:#0c130e;color:var(--text);border:1px solid var(--line);border-radius:9px;font:inherit}textarea{min-height:90px;resize:vertical}footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:14px}.foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
-@media(max-width:700px){.nav{padding:12px 0;align-items:flex-start;flex-direction:column}nav{gap:12px}.hero{padding:56px 0}.grid,.about{grid-template-columns:1fr}.transport-list{grid-template-columns:1fr}section{padding:48px 0}}
-
-/* UI upgrade: button navigation + gentle motion */
-nav a{display:inline-flex;align-items:center;justify-content:center;padding:9px 14px;border:1px solid #344735;border-radius:999px;background:#121b14;color:#eaf3e7;font-weight:700;transition:transform .22s ease,border-color .22s ease,background .22s ease,color .22s ease}
-nav a:hover,nav a:focus-visible{transform:translateY(-2px);border-color:var(--green);background:#203321;color:var(--green2);outline:none}
-nav a.nav-cta{background:var(--green);border-color:var(--green);color:#10200e}
-.hero .eyebrow{animation:fadeUp .7s ease both}
-.hero h1{animation:fadeUp .85s .08s ease both}
-.hero .lead{animation:fadeUp .9s .16s ease both}
-.hero .actions{animation:fadeUp .95s .24s ease both}
-.hero{position:relative;overflow:hidden}
-.hero:after{content:"";position:absolute;inset:-40% -20%;pointer-events:none;background:linear-gradient(110deg,transparent 42%,rgba(183,245,141,.07) 50%,transparent 58%);transform:translateX(-70%);animation:softSweep 8s ease-in-out infinite}
-.hero .wrap{position:relative;z-index:1}
-.btn{transition:transform .22s ease,box-shadow .22s ease,filter .22s ease}
-.btn:hover{transform:translateY(-3px);box-shadow:0 10px 28px rgba(145,230,91,.18)}
-.card,.contact-box,.transport-item{transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease}
-.card:hover,.contact-box:hover{transform:translateY(-5px);border-color:#668b55;box-shadow:0 14px 32px rgba(0,0,0,.2)}
-.reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}
-.reveal.is-visible{opacity:1;transform:translateY(0)}
-@keyframes fadeUp{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
-@keyframes softSweep{0%,35%{transform:translateX(-70%)}75%,100%{transform:translateX(70%)}}
-@media(max-width:700px){.nav{align-items:center;flex-direction:row;flex-wrap:wrap;gap:12px;padding:12px 0}nav{width:100%;display:flex;flex-wrap:nowrap;overflow-x:auto;gap:8px;padding:2px 0 8px;scrollbar-width:none}nav::-webkit-scrollbar{display:none}nav a{white-space:nowrap;padding:9px 13px;font-size:13px}.brand{font-size:14px}}
-@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
-
-
-/* FIHA visual refinement: softer surfaces, spacing, and elegant social cards */
-:root{
- --bg:#080d09;--panel:#111a13;--panel2:#18251a;--green:#a6ee63;--green2:#d0ff9a;
- --text:#f5f8f2;--muted:#b9c5b8;--line:rgba(178,220,157,.16);
-}
-body{background:radial-gradient(ellipse at 12% 5%,rgba(64,104,49,.16),transparent 32%),var(--bg);letter-spacing:.05px}
-header{background:rgba(8,13,9,.82);border-bottom:1px solid rgba(166,238,99,.14)}
-.nav{min-height:76px}
-.brand img{width:64px;height:54px;filter:drop-shadow(0 4px 12px rgba(166,238,99,.12))}
-nav{gap:9px}
-nav a{padding:9px 15px;background:rgba(255,255,255,.035);border-color:rgba(190,225,174,.16);border-radius:999px}
-.hero{padding:92px 0 84px;background:radial-gradient(ellipse at 78% 12%,rgba(94,150,63,.28),transparent 42%),radial-gradient(ellipse at 5% 85%,rgba(32,80,43,.22),transparent 38%),linear-gradient(135deg,#101a11,#080d09 72%);border-bottom:1px solid var(--line)}
-.hero-logo{width:min(390px,76vw);filter:drop-shadow(0 14px 30px rgba(110,190,67,.13));margin-bottom:30px}
-.eyebrow{letter-spacing:2.4px}
-h1{letter-spacing:-1.8px}
-.lead{line-height:1.8}
-.btn{border-radius:999px;padding:14px 23px;box-shadow:0 7px 22px rgba(145,230,91,.1)}
-.btn.secondary{background:rgba(255,255,255,.035);border-color:rgba(190,225,174,.25)}
-section{padding:82px 0}
-.section-head{margin-bottom:32px}
-.section-head h2,.about h2{letter-spacing:-.8px}
-.grid{gap:20px}
-.card{border-radius:22px;padding:26px;background:linear-gradient(150deg,rgba(25,39,27,.96),rgba(14,21,15,.98));border-color:rgba(190,225,174,.14);box-shadow:0 12px 32px rgba(0,0,0,.12)}
-.card h3{letter-spacing:-.3px}
-.price{font-size:29px}
-.note{border-radius:18px;background:linear-gradient(120deg,rgba(35,57,34,.78),rgba(19,31,21,.8));border-color:rgba(166,238,99,.25);padding:19px}
-.transport-item{border-radius:15px;padding:17px 18px;background:rgba(20,30,21,.8);border-color:var(--line)}
-.about{align-items:start;gap:26px}
-.contact-box{position:relative;overflow:hidden;border-radius:26px;padding:28px;background:radial-gradient(circle at 100% 0,rgba(143,216,91,.13),transparent 38%),linear-gradient(145deg,#17251a,#0f1711);border-color:rgba(166,238,99,.22);box-shadow:0 20px 50px rgba(0,0,0,.22)}
-.contact-box:before{content:"";position:absolute;inset:0 0 auto;height:3px;background:linear-gradient(90deg,transparent,var(--green),transparent)}
-.contact-box h2{font-size:30px;margin:5px 0 8px}
-.contact-box p{line-height:1.8}
-.contact-links{display:grid;grid-template-columns:1fr 1fr;gap:11px;margin-top:22px}
-.contact-links a{min-height:76px;display:flex;align-items:center;gap:12px;padding:13px 14px;border:1px solid rgba(190,225,174,.15);border-radius:17px;background:rgba(255,255,255,.035);font-size:13px;font-weight:700;line-height:1.35;transition:transform .22s ease,border-color .22s ease,background .22s ease,box-shadow .22s ease}
-.contact-links a:hover{transform:translateY(-4px);border-color:rgba(166,238,99,.55);background:rgba(166,238,99,.08);color:var(--green2);box-shadow:0 12px 26px rgba(0,0,0,.18)}
-.social-icon{width:38px;height:38px;flex:0 0 38px;display:grid;place-items:center;border-radius:13px;background:rgba(166,238,99,.12);color:var(--green2);font-size:17px;font-weight:900}
-.contact-links a small{display:block;color:var(--muted);font-weight:500;margin-top:4px;font-size:11px}
-form{gap:15px}
-input,select,textarea{border-radius:13px;padding:14px 15px;background:rgba(5,11,7,.72);border-color:rgba(190,225,174,.2)}
-input:focus,select:focus,textarea:focus{outline:2px solid rgba(166,238,99,.35);border-color:var(--green)}
-footer{border-color:var(--line);background:rgba(255,255,255,.015);padding:34px 0}
-.reveal{transform:translateY(26px) scale(.99)}
-@media(max-width:700px){
- .nav{align-items:center;gap:10px}.brand{width:100%}nav{width:100%;padding-bottom:5px}
- .hero{padding:62px 0 58px}.hero-logo{width:min(310px,76vw)}
- section{padding:58px 0}.card{padding:22px;border-radius:19px}
- .contact-box{padding:22px;border-radius:22px}.contact-links{grid-template-columns:1fr}
- .contact-links a{min-height:68px}
-}
-
+:root{--bg:#080d09;--surface:#111a13;--surface2:#17251a;--line:rgba(190,225,174,.16);--green:#a6ee63;--lime:#d0ff9a;--white:#f5f8f2;--muted:#b9c5b8;--gold:#e9c96a;--radius:22px;--shadow:0 22px 65px rgba(0,0,0,.28)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:95px}body{margin:0;background:radial-gradient(ellipse at 10% 0,rgba(74,124,54,.16),transparent 30%),var(--bg);color:var(--white);font:16px/1.65 Inter,system-ui,-apple-system,Segoe UI,Arial,sans-serif}a{color:inherit;text-decoration:none}img{max-width:100%;display:block}button,input,select,textarea{font:inherit}.wrap{width:min(1160px,92%);margin:auto}.muted{color:var(--muted)}.eyebrow{color:var(--green);font-size:.76rem;font-weight:850;letter-spacing:.19em;text-transform:uppercase}.section{padding:88px 0}.section-head{max-width:720px;margin-bottom:34px}.section-head h2{font-size:clamp(2rem,4vw,3.2rem);line-height:1.08;letter-spacing:-.045em;margin:10px 0}.section-head p{color:var(--muted);margin:0}.accent{color:var(--green)}
+header{position:sticky;top:0;z-index:20;background:rgba(8,13,9,.88);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}.nav{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:.04em}.brand img{width:56px;height:56px;object-fit:contain}.brand span{font-size:.9rem}.brand b{color:var(--green)}nav{display:flex;align-items:center;gap:8px}nav a{font-size:.88rem;font-weight:750;color:#d7e2d3;padding:10px 14px;border-radius:999px;transition:.2s}nav a:hover{color:var(--lime);background:rgba(166,238,99,.09)}nav .nav-cta{background:var(--green);color:#10200e;padding-inline:20px}nav .nav-cta:hover{background:var(--lime);color:#10200e}.menu-toggle{display:none;background:none;border:1px solid var(--line);color:white;border-radius:12px;padding:9px 12px}
+.hero{position:relative;isolation:isolate;overflow:hidden;min-height:660px;display:grid;align-items:center;border-bottom:1px solid var(--line);background:linear-gradient(90deg,rgba(5,10,6,.97) 0%,rgba(5,10,6,.86) 46%,rgba(5,10,6,.35) 100%),url('assets/gallery-01.jpg') center 48%/cover}.hero:after{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(ellipse at 80% 35%,rgba(166,238,99,.19),transparent 40%),linear-gradient(0deg,var(--bg),transparent 30%)}.hero-content{padding:92px 0;max-width:760px}.hero-logo{width:min(300px,65vw);height:130px;object-fit:contain;object-position:left center;margin-bottom:25px;filter:drop-shadow(0 10px 24px rgba(166,238,99,.12))}.hero h1{font-size:clamp(2.8rem,7vw,5.8rem);line-height:.98;letter-spacing:-.065em;margin:15px 0 22px}.hero h1 span{color:var(--green)}.hero p{font-size:clamp(1rem,2vw,1.2rem);color:#d1dbce;max-width:610px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:14px 21px;border-radius:999px;font-weight:850;border:1px solid var(--green);background:var(--green);color:#10200e;cursor:pointer;transition:transform .2s,box-shadow .2s,background .2s}.btn:hover{transform:translateY(-3px);box-shadow:0 12px 30px rgba(166,238,99,.18);background:var(--lime)}.btn.ghost{background:rgba(255,255,255,.05);color:var(--white);border-color:rgba(220,240,210,.25)}.btn.ghost:hover{border-color:var(--green);color:var(--lime)}.hero-points{display:flex;gap:22px;flex-wrap:wrap;margin-top:38px;color:#dce7d8;font-size:.88rem}.hero-points span:before{content:'✦';color:var(--green);margin-right:8px}
+.trustbar{border-bottom:1px solid var(--line);background:#0d150f}.trustgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;padding:22px 0}.trustgrid div{display:flex;align-items:center;gap:12px;color:#d8e5d4}.trustgrid strong{display:block;color:var(--green);font-size:1.08rem}.trustgrid small{color:var(--muted)}.trust-icon{width:42px;height:42px;border:1px solid var(--line);border-radius:14px;display:grid;place-items:center;color:var(--green);font-size:1.25rem}
+.cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}.card{background:linear-gradient(150deg,rgba(25,39,27,.96),rgba(14,21,15,.98));border:1px solid var(--line);border-radius:var(--radius);padding:24px;box-shadow:0 10px 32px rgba(0,0,0,.12);transition:transform .25s,border-color .25s}.card:hover{transform:translateY(-5px);border-color:rgba(166,238,99,.5)}.card .number{color:var(--green);font-weight:900;font-size:.75rem;letter-spacing:.14em}.card h3{font-size:1.35rem;margin:8px 0 2px}.price{font-size:1.8rem;letter-spacing:-.04em;font-weight:950;color:var(--green);margin:10px 0 14px}.card ul{padding-left:19px;color:var(--muted);margin:0}.card li{padding:3px 0}.pill{display:inline-flex;padding:5px 10px;border-radius:999px;background:rgba(166,238,99,.1);border:1px solid rgba(166,238,99,.2);color:var(--lime);font-size:.72rem;font-weight:850}.note{margin-top:22px;padding:17px 20px;border:1px solid rgba(166,238,99,.22);background:rgba(34,55,33,.55);border-radius:16px;color:#dce9d6}.note strong{color:var(--lime)}
+.bundle-section{background:linear-gradient(180deg,transparent,rgba(28,48,29,.28),transparent)}.bundle-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.bundle-card{position:relative;overflow:hidden}.bundle-card:after{content:'+';position:absolute;right:22px;top:20px;color:rgba(166,238,99,.17);font-size:4rem;font-weight:900;line-height:1}.bundle-card .price{font-size:2rem}.bundle-card p{color:var(--muted)}
+.genset-box{display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:center;background:linear-gradient(135deg,#17271a,#101812);border:1px solid var(--line);border-radius:28px;padding:clamp(24px,5vw,48px);box-shadow:var(--shadow)}.genset-art{min-height:240px;border-radius:20px;background:radial-gradient(circle at 50% 45%,rgba(166,238,99,.18),transparent 45%),linear-gradient(145deg,#0c130e,#1b2b1d);display:grid;place-items:center;font-size:6rem;color:var(--green)}.genset-box h3{font-size:2rem;margin:8px 0}.genset-box ul{color:var(--muted);padding-left:20px}
+.transport-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.transport-item{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px 14px;text-align:center}.transport-item span{display:block;color:var(--muted);font-size:.85rem}.transport-item strong{display:block;color:var(--green);font-size:1.1rem;margin-top:5px}
+.estimator{display:grid;grid-template-columns:1fr .8fr;gap:22px;align-items:stretch}.estimate-form,.estimate-result{background:var(--surface);border:1px solid var(--line);border-radius:24px;padding:26px}.field{display:grid;gap:7px;margin-bottom:16px}.field label{font-size:.85rem;color:#dbe6d7;font-weight:750}.field input,.field select,.field textarea{width:100%;padding:13px 14px;background:#09100b;color:var(--white);border:1px solid rgba(190,225,174,.22);border-radius:12px;outline:none}.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--green);box-shadow:0 0 0 3px rgba(166,238,99,.1)}.estimate-result{background:linear-gradient(145deg,#1b2b1d,#0f1711);display:flex;flex-direction:column;justify-content:space-between}.estimate-result .total{font-size:clamp(2.3rem,5vw,3.6rem);font-weight:950;color:var(--green);letter-spacing:-.06em;line-height:1.1;margin:12px 0}.breakdown{border-top:1px solid var(--line);margin-top:20px;padding-top:15px;color:var(--muted)}.breakdown div{display:flex;justify-content:space-between;gap:12px;padding:5px 0}.breakdown b{color:var(--white)}.tiny{font-size:.78rem;color:var(--muted)}
+.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}.gallery button{position:relative;overflow:hidden;padding:0;border:1px solid var(--line);border-radius:17px;background:#111;cursor:zoom-in;aspect-ratio:4/3}.gallery button:first-child{grid-column:span 2;grid-row:span 2}.gallery img{width:100%;height:100%;object-fit:cover;transition:transform .4s}.gallery button:hover img{transform:scale(1.06)}.gallery button:after{content:'Lihat foto';position:absolute;left:12px;bottom:12px;padding:6px 10px;background:rgba(0,0,0,.65);border:1px solid rgba(255,255,255,.18);border-radius:999px;font-size:.72rem;color:white;opacity:0;transition:.2s}.gallery button:hover:after{opacity:1}.lightbox{position:fixed;inset:0;background:rgba(0,0,0,.92);z-index:60;display:none;align-items:center;justify-content:center;padding:24px}.lightbox.open{display:flex}.lightbox img{max-width:min(100%,1100px);max-height:85vh;object-fit:contain}.lightbox button{position:absolute;top:18px;right:20px;border:1px solid #ffffff55;background:#111;color:#fff;border-radius:50%;width:44px;height:44px;font-size:1.5rem;cursor:pointer}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.about-card,.contact-card{background:var(--surface);border:1px solid var(--line);border-radius:24px;padding:28px}.about-card h3,.contact-card h3{font-size:1.5rem;margin:7px 0 12px}.contact-list{display:grid;gap:10px;margin-top:18px}.contact-list a{display:flex;align-items:center;gap:13px;padding:13px;border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.025);transition:.2s}.contact-list a:hover{border-color:var(--green);background:rgba(166,238,99,.07)}.contact-icon{width:40px;height:40px;border-radius:13px;display:grid;place-items:center;background:rgba(166,238,99,.12);color:var(--green);font-weight:900}.contact-list small{display:block;color:var(--muted)}.booking-form{display:grid;gap:13px;margin-top:20px}.booking-form .field{margin:0}.booking-form textarea{min-height:88px;resize:vertical}.booking-form button{width:100%}.footer{padding:34px 0;border-top:1px solid var(--line);background:rgba(255,255,255,.015);color:var(--muted);font-size:.88rem}.footer-inner{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}.footer strong{color:var(--white)}.wa-float{position:fixed;right:20px;bottom:20px;z-index:30;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;background:#20c76a;color:#062411;font-size:1.5rem;font-weight:950;box-shadow:0 12px 30px #0008;border:3px solid #d2ffb6}
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .65s,transform .65s}.reveal.visible{opacity:1;transform:none}
+@media(max-width:950px){.cards{grid-template-columns:repeat(2,1fr)}.transport-grid{grid-template-columns:repeat(3,1fr)}.gallery{grid-template-columns:repeat(3,1fr)}.estimator{grid-template-columns:1fr}.hero{min-height:600px}}
+@media(max-width:700px){.section{padding:65px 0}.nav{min-height:70px;flex-wrap:wrap;padding:8px 0}.brand img{width:48px;height:48px}.brand span{font-size:.8rem}.menu-toggle{display:block}nav{display:none;width:100%;overflow:auto;padding:0 0 10px;gap:4px}nav.open{display:flex}nav a{white-space:nowrap;font-size:.8rem;padding:9px 11px}.hero{min-height:620px;background-position:58% center}.hero-content{padding:70px 0}.hero-logo{height:105px}.hero-points{gap:10px 18px}.trustgrid{grid-template-columns:1fr;gap:13px}.cards{grid-template-columns:1fr}.bundle-grid{grid-template-columns:1fr}.genset-box{grid-template-columns:1fr}.genset-art{min-height:170px}.transport-grid{grid-template-columns:repeat(2,1fr)}.gallery{grid-template-columns:repeat(2,1fr);gap:9px}.gallery button:first-child{grid-column:span 2;grid-row:span 1;aspect-ratio:16/9}.about-grid{grid-template-columns:1fr}.estimate-form,.estimate-result,.about-card,.contact-card{padding:21px}.wa-float{right:14px;bottom:14px;width:54px;height:54px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
 </style>
 </head>
 <body>
-<header><div class="wrap nav">
-  <a class="brand" href="#home"><img src="fiha-logo.png" alt="Logo FIHA AUDIO SHOLAWAT"><span>FIHA AUDIO SHOLAWAT</span></a>
-  <nav aria-label="Navigasi utama"><a href="#paket">Paket</a><a href="#bundling">Bundling</a><a href="#genset">Genset</a><a href="#transport">Transport</a><a class="nav-cta" href="#booking">Booking</a></nav>
-</div></header>
+<header><div class="wrap nav"><a class="brand" href="#home"><img src="assets/fiha-logo.png" alt="Logo FIHA AUDIO SHOLAWAT"><span>FIHA <b>AUDIO SHOLAWAT</b></span></a><button class="menu-toggle" id="menuToggle" aria-label="Buka navigasi" aria-expanded="false">☰</button><nav id="mainNav"><a href="#paket">Paket</a><a href="#bundling">Bundling</a><a href="#genset">Genset</a><a href="#estimasi">Estimasi</a><a href="#galeri">Galeri</a><a class="nav-cta" href="#booking">Booking</a></nav></div></header>
 <main>
-<section class="hero" id="home"><div class="wrap">
-  <img class="hero-logo" src="fiha-logo.png" alt="Logo resmi FIHA AUDIO SHOLAWAT"><div class="eyebrow">Sound System • Silent Genset</div>
-  <h1>Suara Jernih.<br><span>Majelis Khusyuk.</span></h1>
-  <p class="lead">Melayani kebutuhan sound system untuk acara sholawat, majelis, pengajian, dan berbagai kegiatan lainnya.</p>
-  <div class="actions"><a class="btn" href="#paket">Lihat Daftar Paket</a><a class="btn secondary" href="#booking">Booking via WhatsApp</a></div>
-</div></section>
-
-<section id="paket" class="reveal"><div class="wrap">
-  <div class="section-head"><div class="eyebrow">Pilihan sound system</div><h2>Paket Sound System</h2><p>Pilih paket sesuai kebutuhan acara Anda.</p></div>
-  <div class="grid">
-    <article class="card"><span class="tag">Paket 01</span><h3>Minimalis</h3><div class="price">Rp600.000</div><ul><li>2 Subwoofer 18"</li><li>2 Mid 12" Double</li><li>2 Monitor Vocal 15"</li><li>15 Mic Kabel</li><li>Mixer & Operator</li></ul></article>
-    <article class="card"><span class="tag">Paket 02</span><h3>Sederhana</h3><div class="price">Rp900.000</div><ul><li>4 Subwoofer 18"</li><li>2 Mid 12" Double</li><li>2 Monitor Vocal 15"</li><li>15 Mic Kabel</li><li>2 Mic Wireless</li><li>Mixer & Operator</li></ul></article>
-    <article class="card"><span class="tag">Paket 03</span><h3>Lengkap</h3><div class="price">Rp1.200.000</div><ul><li>6 Subwoofer 18"</li><li>2 Mid 12" Double</li><li>2 Monitor Vocal 15"</li><li>2 Side Fill Double 15"</li><li>15 Mic Kabel & 2 Mic Wireless</li><li>Mixer & Operator</li><li>Bonus Rekaman Audio</li></ul></article>
-    <article class="card"><span class="tag">Paket 04</span><h3>Istimewa</h3><div class="price">Rp1.800.000</div><ul><li>8 Subwoofer 18"</li><li>2 Mid 12" Double</li><li>2 Monitor Vocal 15"</li><li>2 Side Fill Double 15"</li><li>15 Mic Kabel & 2 Mic Wireless</li><li>Mixer & Operator</li><li>Bonus Rekaman Audio</li></ul></article>
-  </div>
-  <div class="note"><strong>Informasi:</strong> Harga paket sound system belum termasuk biaya transport pengantaran dan penjemputan peralatan. Biaya dihitung berdasarkan jarak lokasi dari basecamp.</div>
-</div></section>
-
-<section class="bundle reveal" id="bundling"><div class="wrap">
-  <div class="section-head"><div class="eyebrow">Lebih praktis</div><h2>Bundling Sound System + Genset</h2><p>Harga bundling mendapatkan potongan Rp100.000 dibandingkan harga satuan.</p></div>
-  <div class="grid">
-    <article class="card"><h3>Bundling Sederhana</h3><div class="price">Rp1.500.000</div><p>Sound System Paket Sederhana + Silent Genset 9.000 Watt.</p><span class="tag">Hemat Rp100.000</span></article>
-    <article class="card"><h3>Bundling Lengkap</h3><div class="price">Rp1.800.000</div><p>Sound System Paket Lengkap + Silent Genset 9.000 Watt.</p><span class="tag">Hemat Rp100.000</span></article>
-    <article class="card"><h3>Bundling Istimewa</h3><div class="price">Rp2.400.000</div><p>Sound System Paket Istimewa + Silent Genset 9.000 Watt.</p><span class="tag">Hemat Rp100.000</span></article>
-  </div>
-  <div class="note"><strong>Informasi:</strong> Harga bundling belum termasuk biaya transport pengantaran dan penjemputan peralatan. Biaya dihitung terpisah berdasarkan jarak lokasi acara.</div>
-</div></section>
-
-<section id="genset" class="reveal"><div class="wrap">
-  <div class="section-head"><div class="eyebrow">Daya untuk acara</div><h2>Sewa Silent Genset</h2></div>
-  <div class="card"><h3>Silent Genset 9.000 Watt</h3><div class="price">Rp700.000</div><ul><li>Gratis BBM untuk pemakaian 8 jam</li><li>Sudah termasuk operator</li></ul><div class="note"><strong>Catatan:</strong> Harga sewa belum termasuk biaya transport pengantaran dan penjemputan genset.</div></div>
-</div></section>
-
-<section id="transport" class="reveal"><div class="wrap">
-  <div class="section-head"><div class="eyebrow">Pengantaran & penjemputan</div><h2>Tarif Transport</h2><p>Jarak dihitung dari basecamp FIHA AUDIO SHOLAWAT di Kalipancur, Ngaliyan, Semarang.</p></div>
-  <div class="transport-list">
-    <div class="transport-item"><span>0–5 km</span><strong>Rp50.000</strong></div>
-    <div class="transport-item"><span>&gt;5–10 km</span><strong>Rp75.000</strong></div>
-    <div class="transport-item"><span>&gt;10–15 km</span><strong>Rp100.000</strong></div>
-    <div class="transport-item"><span>&gt;15–20 km</span><strong>Rp150.000</strong></div>
-    <div class="transport-item"><span>&gt;20 km</span><strong>Mulai Rp200.000</strong></div>
-  </div>
-  <div class="note">Biaya transport sudah mencakup pengantaran dan penjemputan peralatan. Untuk jarak lebih dari 20 km, biaya menyesuaikan jarak dan kondisi perjalanan.</div>
-</div></section>
-
-<section id="booking" class="reveal"><div class="wrap about">
-  <div><div class="eyebrow">Hubungi kami</div><h2>Rencanakan kebutuhan audio acara Anda.</h2><p class="lead">Isi detail singkat berikut. Pesan akan disiapkan untuk dikirim melalui WhatsApp.</p>
-    <form id="bookingForm">
-      <div><label for="nama">Nama pemesan</label><input id="nama" required placeholder="Nama Anda"></div>
-      <div><label for="acara">Nama acara</label><input id="acara" required placeholder="Contoh: Pengajian / Sholawat"></div>
-      <div><label for="tanggal">Hari / tanggal acara</label><input id="tanggal" required placeholder="Contoh: Sabtu, 20 Desember 2026"></div>
-      <div><label for="lokasi">Lokasi acara</label><input id="lokasi" required placeholder="Alamat atau nama tempat"></div>
-      <div><label for="layanan">Kebutuhan</label><select id="layanan"><option>Paket Sound System Minimalis</option><option>Paket Sound System Sederhana</option><option>Paket Sound System Lengkap</option><option>Paket Sound System Istimewa</option><option>Bundling Sederhana + Genset</option><option>Bundling Lengkap + Genset</option><option>Bundling Istimewa + Genset</option><option>Sewa Silent Genset 9.000 Watt</option></select></div>
-      <div><label for="catatan">Catatan tambahan (opsional)</label><textarea id="catatan" placeholder="Jumlah tamu, kebutuhan khusus, dan lainnya"></textarea></div>
-      <button class="btn" type="submit">Kirim Permintaan Booking via WhatsApp</button>
-    </form>
-  </div>
-  <aside class="contact-box"><div class="eyebrow">FIHA AUDIO SHOLAWAT</div><h2>Kontak & lokasi</h2><p>Suara Jernih • Majelis Khusyuk • Hati Tersentuh</p>
-    <p><strong>Basecamp</strong><br>Kelurahan Kalipancur, Kecamatan Ngaliyan, Kota Semarang.</p>
-    <div class="contact-links">
-      <a href="https://wa.me/62882007325036" target="_blank" rel="noopener"><span class="social-icon">W</span><span>WhatsApp Utama<small>0882-0073-25036</small></span></a>
-      <a href="https://wa.me/6282325214890" target="_blank" rel="noopener"><span class="social-icon">W</span><span>WhatsApp<small>0823-2521-4890</small></span></a>
-      <a href="https://wa.me/62889536670901" target="_blank" rel="noopener"><span class="social-icon">W</span><span>WhatsApp<small>0895-3667-0901</small></span></a>
-      <a href="https://instagram.com/fiha.audiosholawat" target="_blank" rel="noopener"><span class="social-icon">◎</span><span>Instagram<small>@fiha.audiosholawat</small></span></a>
-      <a href="https://tiktok.com/@fiha.audiosholawat" target="_blank" rel="noopener"><span class="social-icon">♪</span><span>TikTok<small>@fiha.audiosholawat</small></span></a>
-      <a href="https://youtube.com/@fiha.audiosholawat" target="_blank" rel="noopener"><span class="social-icon">▶</span><span>YouTube<small>@fiha.audiosholawat</small></span></a>
-    </div>
-  </aside>
-</div></section>
+<section class="hero" id="home"><div class="wrap"><div class="hero-content"><img class="hero-logo" src="assets/fiha-logo.png" alt="FIHA AUDIO SHOLAWAT"><div class="eyebrow">Sound System • Silent Genset • Area Semarang</div><h1>Suara Jernih.<br><span>Majelis Khusyuk.</span></h1><p>Mendukung setiap lantunan sholawat, majelis, pengajian, dan berbagai acara dengan dukungan sound system serta silent genset.</p><div class="actions"><a class="btn" href="#paket">Jelajahi Paket <span>↗</span></a><a class="btn ghost" href="#booking">Booking via WhatsApp</a></div><div class="hero-points"><span>Operator berpengalaman</span><span>Pengantaran & penjemputan</span><span>Semarang dan sekitarnya</span></div></div></div></section>
+<div class="trustbar"><div class="wrap trustgrid"><div><span class="trust-icon">♫</span><span><strong>Sound System</strong><small>Pilihan paket sesuai kebutuhan</small></span></div><div><span class="trust-icon">⚡</span><span><strong>Silent Genset</strong><small>Daya tambahan untuk acara</small></span></div><div><span class="trust-icon">✓</span><span><strong>Booking Mudah</strong><small>Konsultasi langsung via WhatsApp</small></span></div></div></div>
+<section class="section reveal" id="paket"><div class="wrap"><div class="section-head"><div class="eyebrow">Pilih sesuai kebutuhan</div><h2>Paket <span class="accent">Sound System</span></h2><p>Setiap acara punya kebutuhan yang berbeda. Pilih paket yang paling sesuai dengan konsep dan skala kegiatan Anda.</p></div><div class="cards">
+<article class="card"><span class="number">PAKET 01</span><h3>Minimalis</h3><div class="price">Rp600.000</div><ul><li>2 Subwoofer 18"</li><li>2 Mid 12" Double</li><li>2 Monitor Vocal 15"</li><li>15 Mic Kabel</li><li>Mixer & Operator</li></ul></article>
+<article class="card"><span class="number">PAKET 02</span><h3>Sederhana</h3><div class="price">Rp900.000</div><ul><li>4 Subwoofer 18"</li><li>2 Mid 12" Double</li><li>2 Monitor Vocal 15"</li><li>15 Mic Kabel</li><li>2 Mic Wireless</li><li>Mixer & Operator</li></ul></article>
+<article class="card"><span class="number">PAKET 03</span><h3>Lengkap</h3><div class="price">Rp1.200.000</div><ul><li>6 Subwoofer 18"</li><li>2 Mid 12" Double</li><li>2 Monitor Vocal 15"</li><li>2 Side Fill Double 15"</li><li>15 Mic Kabel & 2 Mic Wireless</li><li>Mixer & Operator</li><li>Bonus Rekaman Audio</li></ul></article>
+<article class="card"><span class="number">PAKET 04</span><h3>Istimewa</h3><div class="price">Rp1.800.000</div><ul><li>8 Subwoofer 18"</li><li>2 Mid 12" Double</li><li>2 Monitor Vocal 15"</li><li>2 Side Fill Double 15"</li><li>15 Mic Kabel & 2 Mic Wireless</li><li>Mixer & Operator</li><li>Bonus Rekaman Audio</li></ul></article>
+</div><div class="note"><strong>Informasi:</strong> Harga paket sound system belum termasuk biaya transport pengantaran dan penjemputan peralatan. Biaya dihitung berdasarkan jarak lokasi dari basecamp.</div></div></section>
+<section class="section bundle-section reveal" id="bundling"><div class="wrap"><div class="section-head"><div class="eyebrow">Lebih praktis & hemat</div><h2>Paket <span class="accent">Bundling</span></h2><p>Kombinasi sound system dan silent genset 9.000 Watt dengan potongan Rp100.000 dibandingkan harga satuan.</p></div><div class="bundle-grid">
+<article class="card bundle-card"><span class="pill">HEMAT Rp100.000</span><h3>Bundling Sederhana</h3><div class="price">Rp1.500.000</div><p>Sound System Paket Sederhana + Silent Genset 9.000 Watt.</p></article>
+<article class="card bundle-card"><span class="pill">HEMAT Rp100.000</span><h3>Bundling Lengkap</h3><div class="price">Rp1.800.000</div><p>Sound System Paket Lengkap + Silent Genset 9.000 Watt.</p></article>
+<article class="card bundle-card"><span class="pill">HEMAT Rp100.000</span><h3>Bundling Istimewa</h3><div class="price">Rp2.400.000</div><p>Sound System Paket Istimewa + Silent Genset 9.000 Watt.</p></article>
+</div><div class="note"><strong>Informasi:</strong> Harga bundling belum termasuk biaya transport pengantaran dan penjemputan peralatan. Biaya dihitung terpisah berdasarkan jarak lokasi acara.</div></div></section>
+<section class="section reveal" id="genset"><div class="wrap"><div class="section-head"><div class="eyebrow">Daya tambahan acara</div><h2>Sewa <span class="accent">Silent Genset</span></h2></div><div class="genset-box"><div><span class="pill">9.000 WATT</span><h3>Silent Genset</h3><div class="price">Rp700.000</div><ul><li>Gratis BBM untuk pemakaian 8 jam</li><li>Sudah termasuk operator</li></ul><p class="muted">Solusi daya tambahan untuk membantu kebutuhan listrik selama acara berlangsung.</p><div class="note"><strong>Catatan:</strong> Harga sewa belum termasuk biaya transport pengantaran dan penjemputan genset.</div></div><div class="genset-art" aria-hidden="true">⚡</div></div></div></section>
+<section class="section reveal" id="transport"><div class="wrap"><div class="section-head"><div class="eyebrow">Pengantaran & penjemputan</div><h2>Tarif <span class="accent">Transport</span></h2><p>Jarak dihitung dari basecamp FIHA AUDIO SHOLAWAT di Kalipancur, Ngaliyan, Semarang.</p></div><div class="transport-grid"><div class="transport-item"><span>0–5 km</span><strong>Rp50.000</strong></div><div class="transport-item"><span>&gt;5–10 km</span><strong>Rp75.000</strong></div><div class="transport-item"><span>&gt;10–15 km</span><strong>Rp100.000</strong></div><div class="transport-item"><span>&gt;15–20 km</span><strong>Rp150.000</strong></div><div class="transport-item"><span>&gt;20 km</span><strong>Mulai Rp200.000</strong></div></div><div class="note">Biaya transport sudah mencakup pengantaran dan penjemputan peralatan. Untuk jarak lebih dari 20 km, biaya menyesuaikan jarak dan kondisi perjalanan.</div></div></section>
+<section class="section reveal" id="estimasi"><div class="wrap"><div class="section-head"><div class="eyebrow">Rencanakan anggaran</div><h2>Kalkulator <span class="accent">Estimasi Biaya</span></h2><p>Pilih layanan dan masukkan perkiraan jarak dari basecamp. Hasil ini merupakan estimasi awal, bukan konfirmasi harga final.</p></div><div class="estimator"><div class="estimate-form"><div class="field"><label for="service">Pilih layanan</label><select id="service"><option value="600000">Paket Sound System Minimalis — Rp600.000</option><option value="900000">Paket Sound System Sederhana — Rp900.000</option><option value="1200000">Paket Sound System Lengkap — Rp1.200.000</option><option value="1800000">Paket Sound System Istimewa — Rp1.800.000</option><option value="1500000">Bundling Sederhana + Genset — Rp1.500.000</option><option value="1800000">Bundling Lengkap + Genset — Rp1.800.000</option><option value="2400000">Bundling Istimewa + Genset — Rp2.400.000</option><option value="700000">Sewa Silent Genset 9.000 Watt — Rp700.000</option></select></div><div class="field"><label for="distance">Perkiraan jarak dari basecamp (km)</label><input id="distance" type="number" min="0" step="0.1" value="5" inputmode="decimal"></div><p class="tiny">Biaya transport mencakup pengantaran dan penjemputan. Untuk jarak di atas 20 km, estimasi awal menggunakan tarif mulai Rp200.000.</p></div><div class="estimate-result"><div><div class="eyebrow">Perkiraan total</div><div class="total" id="estimateTotal">Rp650.000</div><div class="muted">Rincian perhitungan</div><div class="breakdown"><div><span>Harga layanan</span><b id="servicePrice">Rp600.000</b></div><div><span>Transport</span><b id="transportPrice">Rp50.000</b></div><div><span>Jarak</span><b id="distanceLabel">5 km</b></div></div></div><a class="btn" href="#booking" id="useEstimate">Gunakan estimasi ini ↗</a></div></div></div></section>
+<section class="section reveal" id="galeri"><div class="wrap"><div class="section-head"><div class="eyebrow">Dokumentasi kegiatan</div><h2>Di Balik Setiap <span class="accent">Suara</span></h2><p>Dokumentasi perlengkapan dan kegiatan FIHA AUDIO SHOLAWAT.</p></div><div class="gallery" id="gallery"><button data-src="assets/gallery-01.jpg" aria-label="Lihat dokumentasi 1"><img src="assets/gallery-01.jpg" loading="lazy" alt="Dokumentasi perlengkapan audio FIHA 1"></button><button data-src="assets/gallery-02.jpg" aria-label="Lihat dokumentasi 2"><img src="assets/gallery-02.jpg" loading="lazy" alt="Dokumentasi perlengkapan audio FIHA 2"></button><button data-src="assets/gallery-03.jpg" aria-label="Lihat dokumentasi 3"><img src="assets/gallery-03.jpg" loading="lazy" alt="Dokumentasi perlengkapan audio FIHA 3"></button><button data-src="assets/gallery-04.jpg" aria-label="Lihat dokumentasi 4"><img src="assets/gallery-04.jpg" loading="lazy" alt="Dokumentasi perlengkapan audio FIHA 4"></button><button data-src="assets/gallery-05.jpg" aria-label="Lihat dokumentasi 5"><img src="assets/gallery-05.jpg" loading="lazy" alt="Dokumentasi perlengkapan audio FIHA 5"></button><button data-src="assets/gallery-06.jpg" aria-label="Lihat dokumentasi 6"><img src="assets/gallery-06.jpg" loading="lazy" alt="Dokumentasi perlengkapan audio FIHA 6"></button><button data-src="assets/gallery-07.jpg" aria-label="Lihat dokumentasi 7"><img src="assets/gallery-07.jpg" loading="lazy" alt="Dokumentasi perlengkapan audio FIHA 7"></button><button data-src="assets/gallery-08.jpg" aria-label="Lihat dokumentasi 8"><img src="assets/gallery-08.jpg" loading="lazy" alt="Dokumentasi perlengkapan audio FIHA 8"></button><button data-src="assets/gallery-09.jpg" aria-label="Lihat dokumentasi 9"><img src="assets/gallery-09.jpg" loading="lazy" alt="Dokumentasi perlengkapan audio FIHA 9"></button><button data-src="assets/gallery-10.jpg" aria-label="Lihat dokumentasi 10"><img src="assets/gallery-10.jpg" loading="lazy" alt="Dokumentasi perlengkapan audio FIHA 10"></button></div></div></section>
+<section class="section reveal" id="booking"><div class="wrap"><div class="section-head"><div class="eyebrow">Hubungi & konsultasikan</div><h2>Siapkan Acara <span class="accent">Bersama FIHA</span></h2><p>Isi data singkat berikut. Pesan akan disiapkan dan dibuka melalui WhatsApp.</p></div><div class="about-grid"><div class="about-card"><div class="eyebrow">Form booking</div><h3>Ceritakan kebutuhan acara Anda.</h3><form class="booking-form" id="bookingForm"><div class="field"><label for="nama">Nama pemesan</label><input id="nama" required placeholder="Nama Anda"></div><div class="field"><label for="acara">Nama acara</label><input id="acara" required placeholder="Contoh: Pengajian / Sholawat"></div><div class="field"><label for="tanggal">Hari / tanggal acara</label><input id="tanggal" required placeholder="Contoh: Sabtu, 20 Desember 2026"></div><div class="field"><label for="lokasi">Lokasi acara</label><input id="lokasi" required placeholder="Alamat atau nama tempat"></div><div class="field"><label for="layanan">Kebutuhan</label><select id="layanan"><option>Paket Sound System Minimalis</option><option>Paket Sound System Sederhana</option><option>Paket Sound System Lengkap</option><option>Paket Sound System Istimewa</option><option>Bundling Sederhana + Genset</option><option>Bundling Lengkap + Genset</option><option>Bundling Istimewa + Genset</option><option>Sewa Silent Genset 9.000 Watt</option></select></div><div class="field"><label for="catatan">Catatan tambahan (opsional)</label><textarea id="catatan" placeholder="Jumlah tamu, kebutuhan khusus, dan lainnya"></textarea></div><button class="btn" type="submit">Kirim Permintaan Booking via WhatsApp ↗</button></form></div><aside class="contact-card"><div class="eyebrow">FIHA AUDIO SHOLAWAT</div><h3>Kontak & lokasi</h3><p class="muted">Suara Jernih • Majelis Khusyuk • Hati Tersentuh</p><p><strong>Basecamp</strong><br><span class="muted">Kelurahan Kalipancur, Kecamatan Ngaliyan, Kota Semarang.</span></p><div class="contact-list"><a href="https://wa.me/62882007325036" target="_blank" rel="noopener"><span class="contact-icon">W</span><span>WhatsApp<small>0882-0073-25036</small></span></a><a href="https://wa.me/6282325214890" target="_blank" rel="noopener"><span class="contact-icon">W</span><span>WhatsApp<small>0823-2521-4890</small></span></a><a href="https://wa.me/6289536670901" target="_blank" rel="noopener"><span class="contact-icon">W</span><span>WhatsApp<small>0895-3667-0901</small></span></a><a href="https://instagram.com/fiha.audiosholawat" target="_blank" rel="noopener"><span class="contact-icon">◎</span><span>Instagram<small>@fiha.audiosholawat</small></span></a><a href="https://tiktok.com/@fiha.audiosholawat" target="_blank" rel="noopener"><span class="contact-icon">♪</span><span>TikTok<small>@fiha.audiosholawat</small></span></a><a href="https://youtube.com/@fiha.audiosholawat" target="_blank" rel="noopener"><span class="contact-icon">▶</span><span>YouTube<small>@fiha.audiosholawat</small></span></a></div></aside></div></div></section>
 </main>
-<footer><div class="wrap foot"><span><strong>FIHA AUDIO SHOLAWAT</strong> — Suara Jernih • Majelis Khusyuk • Hati Tersentuh</span><span>© <span id="year"></span> FIHA AUDIO SHOLAWAT</span></div></footer>
+<footer class="footer"><div class="wrap footer-inner"><span><strong>FIHA AUDIO SHOLAWAT</strong> — Suara Jernih • Majelis Khusyuk • Hati Tersentuh</span><span>© <span id="year"></span> FIHA AUDIO SHOLAWAT</span></div></footer>
+<a class="wa-float" href="https://wa.me/62882007325036" target="_blank" rel="noopener" aria-label="Chat WhatsApp FIHA">W</a>
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Pratinjau foto"><button id="closeLightbox" aria-label="Tutup">×</button><img id="lightboxImage" src="" alt="Dokumentasi FIHA AUDIO SHOLAWAT"></div>
 <script>
+const rupiah=n=>'Rp'+Math.round(n).toLocaleString('id-ID');
 document.getElementById('year').textContent=new Date().getFullYear();
-document.getElementById('bookingForm').addEventListener('submit',function(e){
- e.preventDefault();
- const v=id=>document.getElementById(id).value.trim();
- const message=`Assalamu'alaikum, saya ingin menanyakan booking FIHA AUDIO SHOLAWAT.%0A%0A*DATA PEMESANAN*%0A• Nama: ${encodeURIComponent(v('nama'))}%0A• Acara: ${encodeURIComponent(v('acara'))}%0A• Hari/Tanggal: ${encodeURIComponent(v('tanggal'))}%0A• Lokasi: ${encodeURIComponent(v('lokasi'))}%0A• Kebutuhan: ${encodeURIComponent(v('layanan'))}%0A• Catatan: ${encodeURIComponent(v('catatan')||'-')}%0A%0AMohon informasi ketersediaan jadwal dan total biaya termasuk transport. Terima kasih.`;
- window.open('https://wa.me/62882007325036?text='+message,'_blank','noopener');
-});
+const menu=document.getElementById('mainNav'),toggle=document.getElementById('menuToggle');toggle.addEventListener('click',()=>{const open=menu.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open));toggle.textContent=open?'✕':'☰'});menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{menu.classList.remove('open');toggle.setAttribute('aria-expanded','false');toggle.textContent='☰'}));
+function transportFor(km){if(km<=5)return 50000;if(km<=10)return 75000;if(km<=15)return 100000;if(km<=20)return 150000;return 200000}
+const service=document.getElementById('service'),distance=document.getElementById('distance');let estimate={service:600000,transport:50000,distance:5,total:650000};
+function updateEstimate(){let km=Math.max(0,Number(distance.value)||0),base=Number(service.value),fee=transportFor(km);estimate={service:base,transport:fee,distance:km,total:base+fee};document.getElementById('estimateTotal').textContent=rupiah(estimate.total);document.getElementById('servicePrice').textContent=rupiah(base);document.getElementById('transportPrice').textContent=rupiah(fee)+(km>20?' (mulai)':'');document.getElementById('distanceLabel').textContent=km+' km'}
+service.addEventListener('change',updateEstimate);distance.addEventListener('input',updateEstimate);updateEstimate();
+document.getElementById('useEstimate').addEventListener('click',()=>{document.getElementById('layanan').selectedIndex=service.selectedIndex;document.getElementById('catatan').value=`Mohon info estimasi untuk jarak ${estimate.distance} km. Estimasi layanan ${rupiah(estimate.service)}, transport ${rupiah(estimate.transport)}; total sementara ${rupiah(estimate.total)}.`});
+document.getElementById('bookingForm').addEventListener('submit',e=>{e.preventDefault();const v=id=>document.getElementById(id).value.trim();const lines=["Assalamu'alaikum, saya ingin menanyakan booking FIHA AUDIO SHOLAWAT.","","*DATA PEMESANAN*",`• Nama: ${v('nama')}`,`• Acara: ${v('acara')}`,`• Hari/Tanggal: ${v('tanggal')}`,`• Lokasi: ${v('lokasi')}`,`• Kebutuhan: ${v('layanan')}`,`• Catatan: ${v('catatan')||'-'}`,"","Mohon informasi ketersediaan jadwal dan total biaya termasuk transport. Terima kasih."];const url='https://wa.me/62882007325036?text='+encodeURIComponent(lines.join('\n'));window.open(url,'_blank','noopener,noreferrer')});
+const lightbox=document.getElementById('lightbox'),lightboxImage=document.getElementById('lightboxImage');document.getElementById('gallery').addEventListener('click',e=>{const b=e.target.closest('button[data-src]');if(!b)return;lightboxImage.src=b.dataset.src;lightbox.classList.add('open')});function closeLightbox(){lightbox.classList.remove('open');lightboxImage.src=''}document.getElementById('closeLightbox').addEventListener('click',closeLightbox);lightbox.addEventListener('click',e=>{if(e.target===lightbox)closeLightbox()});document.addEventListener('keydown',e=>{if(e.key==='Escape')closeLightbox()});
+const observer=('IntersectionObserver'in window)?new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}}),{threshold:.08}):null;document.querySelectorAll('.reveal').forEach(el=>observer?observer.observe(el):el.classList.add('visible'));
 </script>
-
-<script>
-(() => {
-  const items = document.querySelectorAll('.reveal');
-  if (!('IntersectionObserver' in window)) {
-    items.forEach(item => item.classList.add('is-visible'));
-    return;
-  }
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('is-visible');
-        observer.unobserve(entry.target);
-      }
-    });
-  }, {threshold: 0.12});
-  items.forEach(item => observer.observe(item));
-})();
-</script>
-
 </body></html>
