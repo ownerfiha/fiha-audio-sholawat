@@ -7,7 +7,7 @@ Website ini masih dalam tahap pengembangan dan penyempurnaan. Ke depannya, websi
 Kami mohon doa dan dukungannya agar proses pengembangan website ini dapat berjalan dengan lancar.
 
 🌐 WEBSITE RESMI
-https://ownerfiha.github.io/fiha-audio/
+https://ownerfiha.github.io/fiha-audio-sholawat/
 
 📱 MEDIA SOSIAL KAMI
 Instagram: https://www.instagram.com/fiha.audiosholawat/
