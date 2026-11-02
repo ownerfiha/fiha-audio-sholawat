@@ -1,67 +1,21 @@
-FIHA AUDIO SHOLAWAT
+Assalamu'alaikum warahmatullahi wabarakatuh.
 
-Solusi Audio untuk Acara Sholawat, Hadroh, Pengajian, dan Berbagai Kegiatan Anda.
+Alhamdulillah, sebagai bagian dari pengembangan layanan dan informasi FIHA AUDIO SHOLAWAT, saat ini kami telah memiliki website resmi yang dapat diakses secara online.
 
-Selamat datang di repository resmi website FIHA AUDIO SHOLAWAT.
+Website ini masih dalam tahap pengembangan dan penyempurnaan. Ke depannya, website akan menjadi salah satu media informasi mengenai layanan, dokumentasi kegiatan, paket audio, serta informasi pemesanan (booking) FIHA AUDIO SHOLAWAT.
 
-FIHA AUDIO SHOLAWAT merupakan layanan penyedia jasa sound system dan perlengkapan audio untuk mendukung berbagai kegiatan dan acara, khususnya kegiatan sholawat, hadroh, pengajian, serta acara masyarakat.
+Kami mohon doa dan dukungannya agar proses pengembangan website ini dapat berjalan dengan lancar.
 
-Kami berkomitmen memberikan pelayanan audio yang berkualitas, profesional, dan sesuai kebutuhan setiap acara.
+🌐 WEBSITE RESMI
+https://ownerfiha.github.io/fiha-audio/
 
----
+📱 MEDIA SOSIAL KAMI
+Instagram: https://www.instagram.com/fiha.audiosholawat/
 
-🎧 Layanan Kami
+TikTok: https://www.tiktok.com/@fiha.audiosholawat
 
-- Sound system berbagai pilihan paket.
-- Audio untuk acara sholawat dan hadroh.
-- Sound system untuk pengajian dan kegiatan keagamaan.
-- Paket audio dan genset.
-- Silent genset.
-- Layanan transportasi dan pengiriman peralatan.
+YouTube: https://youtube.com/@fiha.audiosholawat
 
-🎤 Komitmen Pelayanan
+Terima kasih atas perhatian dan dukungannya.
 
-Kami mengutamakan:
-
-- Kualitas suara yang baik.
-- Peralatan yang terawat.
-- Pelayanan yang ramah dan komunikatif.
-- Penyesuaian kebutuhan sesuai jenis acara.
-- Ketepatan waktu dan kesiapan teknis.
-
-📍 Lokasi
-
-Kelurahan Kalipancur, Kecamatan Ngaliyan, Kota Semarang, Jawa Tengah.
-
-📞 Hubungi Kami
-
-- WhatsApp: 0882-0073-25036
-- WhatsApp: 0823-2521-4890
-- WhatsApp: 0895-3667-0901
-
-🌐 Media Sosial
-
-- Instagram: "@fiha.audiosholawat" (https://instagram.com/fiha.audiosholawat)
-- TikTok: "@fiha.audiosholawat" (https://tiktok.com/@fiha.audiosholawat)
-- YouTube: "@fiha.audiosholawat" (https://youtube.com/@fiha.audiosholawat)
-
-💻 Website Resmi
-
-"https://ownerfiha.github.io/fiha-audio" (https://ownerfiha.github.io/fiha-audio)
-
----
-
-📂 Struktur Website
-
-fiha-audio-sholawat/
-├── assets/
-│   ├── fiha-logo.png
-│   ├── gallery-01.jpg
-│   ├── gallery-02.jpg
-│   └── ...
-├── index.html
-└── README.md
-
-© Hak Cipta
-
-© FIHA AUDIO SHOLAWAT. Seluruh hak cipta dilindungi.
+Wassalamu'alaikum warahmatullahi wabarakatuh.
